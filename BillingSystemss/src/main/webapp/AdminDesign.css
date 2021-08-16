@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.dropdown{ 
+ padding: 6px;
+  border: 1px solid transparent;
+color:white;  
+
+}
+
+.buttonpage{
+	border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    box-shadow: 0 9px #999;
+	
+}
+.tableFixHead{
+	overflow-y: auto;
+        height: 250px;
+}
+.tableFixHead thead th {
+        position: sticky;
+        top: 0;
+        color:white;
+      }
+    .tableFixHead   table {
+        border-collapse: collapse;
+        width: 80%;
+        height:250px;
+      }
+      
+.tableFixHead th,td {
+        padding: 8px 16px;
+                border: 1px solid #ccc;
+        
+      }
